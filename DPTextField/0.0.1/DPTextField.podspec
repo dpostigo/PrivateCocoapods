@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/dpostigo/DPTextField.git", :tag => s.version.to_s }
   s.platform     = :ios
   s.source_files = 'DPTextField/*.{h,m}'
+  s.frameworks   = 'UIKit'
   s.requires_arc = true
 
 end
